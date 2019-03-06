@@ -1,0 +1,148 @@
+html {
+    background-color: lightblue;
+    
+}
+
+header {
+  /* border: 1px solid black; */ 
+
+   margin: 10px auto;
+   padding: 20px 0 20px;
+   text-align: center;
+   width: 960px;
+   font-family: 'Alegreya Sans';font-size: 22px;
+   font-size: 50px;
+}
+
+header ul {
+   margin: 0;
+   padding: 20px 0 0;
+}
+
+header ul li {
+   display: inline;
+   list-style: none;
+   margin: 0;
+   padding: 0 19px;
+   font-size: 25px;
+}
+
+
+*{ 
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav .menu-bar {
+  width: 100%;
+  text-align: center;
+  box-shadow: 1px 2px 4px grey;
+  background: rgba(2,2,2,0.2);
+}
+
+.menu-bar li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+  margin: 0px 20px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-bar li:hover{
+  background: #007bff;
+  color: white;
+}
+
+p {
+    border: 0.5px solid skyblue;
+    padding: 50px;
+    margin: 50px;
+    font-family: 'Alegreya Sans';font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    background-color: light pink;
+
+  }
+  
+ h1{
+     font-family: 'Allan';font-size: 20px;
+     justify-content: left;
+     text-align: left;
+     width: 30px;
+     margin: auto;
+     margin-top: 30px;
+     padding: 10px;
+ } 
+  
+ h2{
+  font-family: 'Allan';font-size: 12px;
+  justify-content: left;
+  text-align: left;
+  margin: auto;
+  width: 300px;
+  padding: 30px;
+
+} 
+  .container {
+      border: 0.5px solid skyblue;
+      padding: 10px;
+      margin: auto;
+      justify-content: space-around;
+
+    }
+
+  .container {
+      display: flex;
+      justify-content: space-around;
+      justify-items: auto;
+      flex-wrap: wrap;
+      margin: 10px;
+    }
+
+@media (max-width : 660px){
+
+  nav > a{
+    display:none;
+  }
+  .nav-container , a{
+    width: 80px;
+  }
+  
+  header {
+    /* border: 1px solid black; */    
+     margin: auto;
+     padding: 10px 0 10px;
+     text-align: center;
+     width: 400px;
+     font-family: 'Alegreya Sans';
+     font-size: 20px;
+  
+  }
+
+  p {
+    border: 0.5px solid skyblue;
+    padding: 30px;
+    margin: 30px;
+    font-family: 'Alegreya Sans';font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    background-color: light pink;
+
+  }
+  
+  header ul {
+     margin: 0;
+     padding: 10px 0 0;
+  }
+  
+  header ul li {
+     display: inline;
+     list-style: none;
+     margin: 0;
+     padding: 0 10px;
+     font-size: 15px;
+  }
+}
+
