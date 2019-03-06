@@ -1,0 +1,42 @@
+
+
+/* The element to apply the animation to */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* animation-name: example; */
+    animation: example 2s infinite;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+p {
+    margin-top: 30%;
+}
+
+.wrapper {
+    box-sizing: content-box;
+    height: 120px;
+    width: 120px;
+    border: 2px solid gray;
+    margin-top: 100px;
+    margin-left: auto;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* The animation code */
+@keyframes example {
+    0% {background-color: red;}
+    100% {background-color: yellow;}
+}
