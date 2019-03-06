@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: lightblue;
     
 }
 
@@ -7,7 +7,7 @@ header {
   /* border: 1px solid black; */ 
 
    padding: 5px 5px;
-   background-color: darkgrey;
+   background-color: lightskyblue;
    text-align: center;
    font-family: 'Alegreya Sans';font-size: 22px;
    font-size: 50px;
@@ -36,7 +36,7 @@ header ul li {
 nav .menu-bar {
   width: 100%;
   text-align: center;
-  box-shadow: 1px 2px 4px grey;
+  box-shadow: 1px 2px 4px lightskyblue;
   background: rgba(2,2,2,0.2);
 }
 
